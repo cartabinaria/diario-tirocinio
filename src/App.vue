@@ -94,7 +94,10 @@ export default defineComponent({
             @click="switchMode"
             :disabled="!duringConversion"
             class="w-full p-4 rounded-tl-lg enabled:hover:bg-blue-400 font-bold"
-            :class="{ 'bg-cartabinaria-light-blu': duringConversion, 'bg-blue-500': !duringConversion }"
+            :class="{
+              'bg-cartabinaria-light-blu': duringConversion,
+              'bg-blue-500': !duringConversion
+            }"
           >
             Insert
           </button>

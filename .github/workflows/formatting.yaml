@@ -1,7 +1,6 @@
 name: Formatting
 
-on:
-  push
+on: push
 
 jobs:
   format-check:

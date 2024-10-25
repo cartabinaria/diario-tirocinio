@@ -1,7 +1,6 @@
 name: Build
 
-on:
-  push
+on: push
 
 jobs:
   build-check:
@@ -20,4 +19,3 @@ jobs:
 
       - name: Check formatting
         run: npm run build
-
