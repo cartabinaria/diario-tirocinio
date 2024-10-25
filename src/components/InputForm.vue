@@ -28,7 +28,7 @@ export default defineComponent({
 </script>
 
 <template>
-  <div class="rounded-b-lg p-12 bg-csunibo-light-blu">
+  <div class="rounded-b-lg p-12 bg-cartabinaria-light-blu">
     <form @submit.prevent="handleSubmit()">
       <div class="mt-5">
         <label for="title">Titolo: </label>

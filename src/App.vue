@@ -89,12 +89,12 @@ export default defineComponent({
         <h1 class="p-2 text-center text-3xl font-bold">Diario tirocinio</h1>
         <h3 class="text-center mb-10">Riassumi velocemente il tuo tirocinio</h3>
 
-        <div class="flex justify-between border-b-csunibo-dark-blu border-b-4">
+        <div class="flex justify-between border-b-cartabinaria-dark-blu border-b-4">
           <button
             @click="switchMode"
             :disabled="!duringConversion"
             class="w-full p-4 rounded-tl-lg enabled:hover:bg-blue-400 font-bold"
-            :class="{ 'bg-csunibo-light-blu': duringConversion, 'bg-blue-500': !duringConversion }"
+            :class="{ 'bg-cartabinaria-light-blu': duringConversion, 'bg-blue-500': !duringConversion }"
           >
             Insert
           </button>
@@ -103,7 +103,7 @@ export default defineComponent({
             :disabled="duringConversion || !canConvert()"
             class="w-full p-4 rounded-tr-lg font-bold"
             :class="{
-              'bg-csunibo-light-blu': !duringConversion,
+              'bg-cartabinaria-light-blu': !duringConversion,
               'bg-blue-500': duringConversion,
               'enabled:hover:bg-blue-400': canConvert(),
               'opacity-50': !canConvert()

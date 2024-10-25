@@ -11,7 +11,7 @@ export default defineComponent({
     <div class="w-full h-full overflow-auto">
       <div
         @click.stop=""
-        class="bg-csunibo-light-blu w-80 h-full shadow-2xl border-black flex flex-col justify-between overflow-auto"
+        class="bg-cartabinaria-light-blu w-80 h-full shadow-2xl border-black flex flex-col justify-between overflow-auto"
       >
         <div class="pl-5 flex justify-between align-center border-b border-b-white mx-4">
           <h1 class="font-bold text-center text-xl p-5">INFO</h1>
@@ -34,17 +34,17 @@ export default defineComponent({
         </div>
         <div>
           <a
-            href="https://csunibo.students.cs.unibo.it/wiki/applicativi-web/diario-tirocinio/index.html"
+            href="https://cartabinaria.students.cs.unibo.it/wiki/applicativi-web/diario-tirocinio/index.html"
             class="block p-5 border-blue-500 border text-center m-5 text-blue-500 rounded hover:bg-blue-400 hover:text-white hover:border-blue-400"
             >Documentazione</a
           >
           <a
-            href="https://csunibo.students.cs.unibo.it"
+            href="https://cartabinaria.students.cs.unibo.it"
             class="block p-5 border-blue-500 border text-center m-5 text-blue-500 rounded hover:bg-blue-400 hover:text-white hover:border-blue-400"
-            >CSUnibo</a
+            >CartaBinaria</a
           >
           <a
-            href="https://github.com/csunibo/diario-tirocinio"
+            href="https://github.com/cartabinaria/diario-tirocinio"
             class="block p-5 border-blue-500 border text-center m-5 text-blue-500 rounded hover:bg-blue-400 hover:text-white hover:border-blue-400"
             >Contribuisci</a
           >

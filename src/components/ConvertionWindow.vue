@@ -50,7 +50,7 @@ export default defineComponent({
 
 <template>
   <div class="h-full">
-    <div class="bg-csunibo-light-blu rounded-b-lg p-12">
+    <div class="bg-cartabinaria-light-blu rounded-b-lg p-12">
       <h1 class="font-bold m-b-2 text-lg mb-2">PDF:</h1>
       <button @click="generatePDF" class="bg-blue-500 rounded p-5 mb-10 hover:bg-blue-400">
         Download PDF

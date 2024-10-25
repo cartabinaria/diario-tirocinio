@@ -9,9 +9,9 @@ export default {
   theme: {
     extend: {
       colors: {
-        'csunibo-light-blu': '#0f1f2a',
-        'csunibo-dark-blu': '#02111b',
-        'csunibo-dark-grey': '#c5c9cc'
+        'cartabinaria-light-blu': '#0f1f2a',
+        'cartabinaria-dark-blu': '#02111b',
+        'cartabinaria-dark-grey': '#c5c9cc'
       },
     },
   },

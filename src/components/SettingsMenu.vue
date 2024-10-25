@@ -27,7 +27,7 @@ export default defineComponent({
     <div @click="$emit('close')" class="w-full h-full">
       <div
         @click.stop=""
-        class="bg-csunibo-light-blu w-80 h-full shadow-2xl border-black float-right"
+        class="bg-cartabinaria-light-blu w-80 h-full shadow-2xl border-black float-right"
       >
         <div class="pr-5 mb-10 flex justify-between border-b-white border-b mx-4">
           <div class="grid items-center">
